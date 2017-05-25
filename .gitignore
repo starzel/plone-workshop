@@ -1,0 +1,10 @@
+*~
+*.mo
+_build/
+bin/
+include/
+lib/
+local/
+build/
+.doctrees
+pip-selfcheck.json

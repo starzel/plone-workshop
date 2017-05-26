@@ -31,6 +31,7 @@ Contents:
     installation
     demo
     content
+    mosaic
     templates
     views
 

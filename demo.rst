@@ -5,10 +5,9 @@ Features
 Some of the many features of Plone
 ==================================
 
-- Users and Roles
 - Working with content
-- Workflow
--
+- Users, Roles and Workflows
+- Configuring Plone
 
 
 Addons
@@ -31,10 +30,8 @@ We have to install it to enable its features.
 * Go to http://localhost:8080/Plone/prefs_install_products_form
 * Install ``plone.dojo 0.1``
 
-The code is in ``<buidout-directory>/src/plone.dojo/src/plone/dojo/``. All paths from now on are relative to this. The weird directory-structure is needed to make a package testable by itself.
-
 .. note::
 
-    More about the features of Plone: http://plone-training.readthedocs.org/en/latest/features.html
+    More about the features of Plone: https://training.plone.org/5/mastering_plone/features.html
 
-    More about add-ons: http://plone-training.readthedocs.org/en/latest/addons.html
+    More about add-ons: https://training.plone.org/5/mastering_plone/addons.html

@@ -84,8 +84,6 @@ The top bar offers different buttons:
 - :guilabel:`Layout`, to manage the content layout.
 
 
-Exercise 1 - Change the layout of the front page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Go to the front page of the website and update the layout
 as follows:
 
@@ -159,7 +157,7 @@ Mosaic provides the following tiles:
     - existing content: it allows to display another content in a tile
 
 
-Exercise 2: Customize the home page layout
+Exercise 1: Customize the home page layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Create an attractive layout for the home page.
@@ -188,7 +186,7 @@ The layout is associated to the current content type, by default it will not be 
 Once saved, our layout will be listed with the other available layouts when you click on :menuselection:`Layout --> Change`.
 
 
-Exercise 3: create a layout for talks
+Exercise 2: create a layout for talks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note:: This exercise assumes that you have created a content type called "Talk".
@@ -208,26 +206,6 @@ Create an attractive layout for a talk, save it and reuse it for another talk.
     - click :guilabel:`Edit`,
     - click on Layout / Change,
     - choose "Talk".
-
-Manage custom layouts
----------------------
-
-Custom layouts can be managed from the Plone control panel:
-
-- click on :menuselection:`user menu --> Site settings`,
-- click on Mosaic Layout Editor (in the last section, named :guilabel:`Add-on configuration`),
-
-In the third tab of this control panel, named "Show/hide content layouts", we can see the existing layouts, their associated content types, and we can deactivate (or re-activate) them by clicking on :guilabel:`Hide` (or :guilabel:`Show`).
-
-In the first tab, named :guilabel:`Content layouts`, there is a source editor.
-
-By editing :file:`manifest.cfg`, we can assign a layout to another content type by changing the ``for =`` line. If we remove this line, the layout is available for any content type.
-
-We can also delete the layout section from :file:`manifest.cfg`, and the layout will be deleted (if we do so, it is recommended to delete its associated HTML file too).
-
-Deleting a custom layout can also be managed in another way:
-
-Note: the second tab, named :guilabel:`Site layouts`, is not usable for now.
 
 
 .. seealso::

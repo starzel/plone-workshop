@@ -5,6 +5,20 @@ Features
 Some of the many features of Plone
 ==================================
 
+Main features:
+
+- Content in a object-tree
+- Traversal (portal/folder/document)
+- Object-Database: ZODB
+- REST-API
+- Python-api
+- User-, Groups and Permission-Management
+- Search engine
+- Multilingual
+
+
+Demo
+
 - Working with content
 - Users, Roles and Workflows
 - Configuring Plone

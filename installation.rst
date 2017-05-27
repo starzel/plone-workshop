@@ -39,7 +39,13 @@ The next steps install the dependencies and configures your Plone-instance.
     $ ../bin/python bootstrap-buildout.py
     $ ./bin/buildout
 
-The **main** command is ``./bin/buildout``. It will take a very looooooong time since it installs 265 dependencies - yes, Plone pretty big. If you work with Plone regularly it is much faster because you use a buildout-cache (similar to a local pypi-server).
+.. note::
+
+    If you get errors about setuptools-versions like ``VersionConflict: ... Requirement.parse('zc.buildout==2.5.3'))`` simply restart the command ``./bin/buildout`` (up to three times...).
+
+.. warning::
+
+    ``./bin/buildout`` will take a *very looooooong time* since it installs 265 dependencies - yes, Plone is pretty big. If you work with Plone regularly it is much faster because you use a buildout-cache (similar to a local pypi-server).
 
 Now Plone is ready to run.
 
